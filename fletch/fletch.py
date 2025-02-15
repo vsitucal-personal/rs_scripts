@@ -9,7 +9,7 @@ from utils.util import randomize_time
 # inv 1 1484, 754
 # inv 2 1562, 861
 
-for i in range(1, 100):
+for i in range(1, 50):
     print(i)
     # bank
     pag.moveTo(737, 649, randomize_time(0.6))
@@ -47,4 +47,4 @@ for i in range(1, 100):
     time.sleep(randomize_time(0.9))
     pag.press('space')
 
-    time.sleep(randomize_time(18))
+    time.sleep(randomize_time(17.5))
