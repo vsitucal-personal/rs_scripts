@@ -45,8 +45,7 @@ def three_iron_ores():
 
     time.sleep(delay)
 
-reps = 121
-
+reps = 15
 for i in range(1, reps + 1):
     print(i)
     coordinates = [
@@ -64,9 +63,4 @@ for i in range(1, reps + 1):
     for j in range(1, 9):
         three_iron_ores()
         time.sleep(random.uniform(1.02, 1.06))
-
-
-
-
-
 
